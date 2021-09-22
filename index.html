@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Path Visualizer</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="mainHeading">Path Visualizer</h1>
+            <p>Place a </p>
+            <select id="user_input">
+                <option value="0">Wall Paint</option>
+                <option value="1">Source</option>
+                <option value="2">Destination</option>
+                <option value="3">Wall Erase</option>
+            </select>
+            <p>Select Algorithm </p>
+            <select id="algoSelect">
+                <option value="0">BFS</option>
+                <option value="1">Dijkstras</option>
+                <option value="2">A*</option>
+                <option value="3">Flyod</option>
+            </select>
+            <button id="runBtn">Run</button>
+        </header>
+        <div id="container">
+        </div>
+    </body>
+    <script src="mainScript.js"></script>
+</html>
