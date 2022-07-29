@@ -104,13 +104,14 @@ runBtn.onclick=function ()
             if(grid[i][j]==0)document.getElementById(i+" "+j).style.backgroundColor="rgb(200,200,200)";
         }
     }
-    switch(document.querySelector("#algoSelect").value)
-    {
-        case "0":BFS();break;
-        case "1":break;
-        case "2":break;
-        case "3":break;
-    }
+    BFS();
+//     switch(document.querySelector("#algoSelect").value)
+//     {
+//         case "0":BFS();break;
+//         case "1":break;
+//         case "2":break;
+//         case "3":break;
+//     }
 }
 
 // QUEUE
